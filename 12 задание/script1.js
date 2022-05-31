@@ -2,21 +2,21 @@ let age = 8;
 let ageGroup;
 
 if (age <= 1) {
-  ageGroup = 'Щенки';
+  ageGroup = 'Р©РµРЅРєРё';
   console.log(ageGroup); 
 }
 
 if (age > 1 && age <= 3) {
-  ageGroup = 'Молодые собаки';
+  ageGroup = 'РњРѕР»РѕРґС‹Рµ СЃРѕР±Р°РєРё';
   console.log(ageGroup); 
 }
 
 if (age > 3 && age <= 7) {
-  ageGroup = 'Собаки средних лет';
+  ageGroup = 'РЎРѕР±Р°РєРё СЃСЂРµРґРЅРёС… Р»РµС‚';
   console.log(ageGroup); 
 }
 
 if (age > 7) {
-  ageGroup = 'Почтенные таксоны';
+  ageGroup = 'РџРѕС‡С‚РµРЅРЅС‹Рµ С‚Р°РєСЃРѕРЅС‹';
   console.log(ageGroup); 
 }
