@@ -8,12 +8,12 @@ if (temperature === ideal_temperature) {
   minutes = 20;
 }
 
-if (temperature > 0 && temperature < 35) {
+elif (temperature > 0 && temperature < 35) {
   let deviation = Math.abs(ideal_temperature - temperature);
   minutes = 20 - deviation;
 }
 
-if (temperature < 0 && temperature > 35 && is_raining) {
+elif (temperature < 0 && temperature > 35 && is_raining) {
   minutes = 0;
 }
 
