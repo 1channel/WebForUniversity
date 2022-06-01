@@ -6,17 +6,17 @@ if (age <= 1) {
   console.log(ageGroup); 
 }
 
-if (age > 1 && age <= 3) {
+elif (age > 1 && age <= 3) {
   ageGroup = 'Молодые собаки';
   console.log(ageGroup); 
 }
 
-if (age > 3 && age <= 7) {
+elif (age > 3 && age <= 7) {
   ageGroup = 'Собаки средних лет';
   console.log(ageGroup); 
 }
 
-if (age > 7) {
+elif (age > 7) {
   ageGroup = 'Почтенные таксоны';
   console.log(ageGroup); 
 }
